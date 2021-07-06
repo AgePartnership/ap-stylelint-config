@@ -3,13 +3,7 @@
   "version": "1.0.0",
   "description": "StyleLint Configuration for AgePartnership's SCSS",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/AgePartnership/ap-stylelint-config.git"
-  },
+  "repository": "git@github.com:AgePartnership/ap-stylelint-config.git",
   "keywords": [
     "stylelint",
     "stylelint-config",
