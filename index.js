@@ -25,7 +25,9 @@ module.exports = {
         "order/properties-alphabetical-order": [
             true,
             {
-                "ignoreAtRules": []
+                "ignore": [
+                    "at-rule"
+                ]
             }
         ],
         "indentation": 4,
