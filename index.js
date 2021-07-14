@@ -22,8 +22,8 @@ module.exports = {
                 "message": "Variable name must be kebab-case"
             }
         ],
-        "order/properties-alphabetical-order": [
-            true,
+        "order/properties-order": [
+            "alphabetical",
             {
                 "ignore": [
                     "at-rule"
