@@ -22,7 +22,16 @@ module.exports = {
                 "message": "Variable name must be kebab-case"
             }
         ],
-        "order/properties-alphabetical-order": true,
+        "order/properties-order": [
+            [
+                "@include",
+                "@mixin",
+                "@extend"
+            ],
+            {
+                "unspecified": "bottomAlphabetical"
+            }
+        ],
         "indentation": 4,
         "rule-empty-line-before": [
             "always",
