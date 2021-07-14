@@ -23,11 +23,13 @@ module.exports = {
             }
         ],
         "order/properties-order": [
-            "alphabetical",
+            [
+                "@include",
+                "@mixin",
+                "@extend"
+            ],
             {
-                "ignore": [
-                    "at-rule"
-                ]
+                "unspecified": "bottomAlphabetical"
             }
         ],
         "indentation": 4,
