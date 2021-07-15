@@ -31,7 +31,8 @@ module.exports = {
                 "rules"
             ],
             {
-                "unspecified": "ignore"
+                "unspecified": "ignore",
+                "disableFix": true
             }
         ],
         "indentation": 4,
