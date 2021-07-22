@@ -49,6 +49,7 @@ module.exports = {
         "no-missing-end-of-source-newline": true,
         "max-empty-lines": 3,
         "number-no-trailing-zeros": true,
+        "number-leading-zero": "always",
         "string-quotes": "single",
         "color-hex-length": "short",
         "color-hex-case": "upper",
