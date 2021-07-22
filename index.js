@@ -49,10 +49,10 @@ module.exports = {
         "no-missing-end-of-source-newline": true,
         "max-empty-lines": 3,
         "number-no-trailing-zeros": true,
-        "number-leading-zero": "never",
+        "number-leading-zero": "always",
         "string-quotes": "single",
         "color-hex-length": "short",
-        "color-hex-case": "lower",
+        "color-hex-case": "upper",
         "color-no-invalid-hex": true,
         "selector-attribute-quotes": "always",
         "declaration-block-no-duplicate-properties": [
