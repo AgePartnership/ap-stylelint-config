@@ -51,7 +51,7 @@ module.exports = {
         "number-no-trailing-zeros": true,
         "string-quotes": "single",
         "color-hex-length": "short",
-        "color-hex-case": "lower",
+        "color-hex-case": "upper",
         "color-no-invalid-hex": true,
         "selector-attribute-quotes": "always",
         "declaration-block-no-duplicate-properties": [
