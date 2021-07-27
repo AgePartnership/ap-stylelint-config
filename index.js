@@ -52,7 +52,7 @@ module.exports = {
         "number-leading-zero": "always",
         "string-quotes": "single",
         "color-hex-length": "short",
-        "color-hex-case": "upper",
+        "color-hex-case": "lower",
         "color-no-invalid-hex": true,
         "selector-attribute-quotes": "always",
         "declaration-block-no-duplicate-properties": [
