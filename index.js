@@ -24,17 +24,15 @@ module.exports = {
         ],
         "order/order": [
             [
+                "at-rules",
                 "custom-properties",
                 "dollar-variables",
                 "at-variables",
                 "declarations",
                 "rules"
-            ],
-            {
-                "unspecified": "ignore",
-                "disableFix": true
-            }
+            ]
         ],
+        "order/properties-alphabetical-order": true,
         "indentation": 4,
         "rule-empty-line-before": [
             "always",
