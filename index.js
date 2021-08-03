@@ -71,6 +71,7 @@ module.exports = {
         "block-no-empty": true,
         "comment-no-empty": true,
         "declaration-block-trailing-semicolon": "always",
+        "font-family-name-quotes": "always-where-recommended",
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
         "no-duplicate-at-import-rules": true,
