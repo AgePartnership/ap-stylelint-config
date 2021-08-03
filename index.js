@@ -22,16 +22,9 @@ module.exports = {
                 "message": "Variable name must be kebab-case"
             }
         ],
-        "order/order": [
-            [
-                "custom-properties",
-                "dollar-variables",
-                "at-variables",
-                "declarations",
-                "rules"
-            ],
+        "order/properties-alphabetical-order": [
+            true,
             {
-                "unspecified": "ignore",
                 "disableFix": true
             }
         ],
