@@ -73,7 +73,6 @@ module.exports = {
         "selector-pseudo-element-colon-notation": "double",
         "at-rule-name-space-after": "always",
         "at-rule-semicolon-space-before": "never",
-        "block-closing-brace-space-after": "never-single-line",
         "block-closing-brace-space-before": "always-single-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always",
