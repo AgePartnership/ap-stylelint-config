@@ -94,6 +94,7 @@ module.exports = {
         "media-query-list-comma-space-after": "always",
         "media-query-list-comma-space-before": "never",
         "no-eol-whitespace": true,
+        "property-no-unknown": true,
         "selector-attribute-brackets-space-inside": "never",
         "selector-attribute-operator-space-after": "never",
         "selector-attribute-operator-space-before": "never",
