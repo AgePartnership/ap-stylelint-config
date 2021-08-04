@@ -14,12 +14,7 @@
     "url": "https://github.com/AgePartnership/ap-stylelint-config/issues"
   },
   "homepage": "https://github.com/AgePartnership/ap-stylelint-config#readme",
-  "devDependencies": {
-    "stylelint": "^13.13.1",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0"
-  },
-  "peerDependencies": {
+  "dependencies": {
     "stylelint": "^13.13.1",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.19.0"
