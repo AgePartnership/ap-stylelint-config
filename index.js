@@ -3,7 +3,8 @@
 module.exports = {
     "plugins": [
         "stylelint-scss",
-        "stylelint-order"
+        "stylelint-order",
+        "stylelint-use-nesting"
     ],
     "ignoreFiles": [
         "**/*.yaml",
@@ -22,12 +23,21 @@ module.exports = {
                 "message": "Variable name must be kebab-case"
             }
         ],
+        "scss/at-else-closing-brace-space-after": "always-intermediate",
+        "scss/at-if-closing-brace-space-after": "always-intermediate",
         "order/properties-alphabetical-order": [
             true,
             {
                 "disableFix": true
             }
         ],
+        "csstools/use-nesting": [
+            "always",
+            {
+                "except": [/^:.*/i]
+            }
+        ],
+        "no-duplicate-selectors": true,
         "indentation": 4,
         "rule-empty-line-before": [
             "always",
