@@ -22,6 +22,8 @@ module.exports = {
                 "message": "Variable name must be kebab-case"
             }
         ],
+        "scss/at-else-closing-brace-space-after": "always-intermediate",
+        "scss/at-if-closing-brace-space-after": "always-intermediate",
         "order/properties-alphabetical-order": [
             true,
             {
