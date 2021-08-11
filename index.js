@@ -37,6 +37,7 @@ module.exports = {
                 "except": [/^:.*/i]
             }
         ],
+        "no-duplicate-selectors": true,
         "indentation": 4,
         "rule-empty-line-before": [
             "always",
