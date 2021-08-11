@@ -34,7 +34,7 @@ module.exports = {
         "csstools/use-nesting": [
             "always",
             {
-                "except": [/^:.*/i]
+                "except": [/^(&)?:.*/i]
             }
         ],
         "no-duplicate-selectors": true,
