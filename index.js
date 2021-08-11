@@ -3,7 +3,8 @@
 module.exports = {
     "plugins": [
         "stylelint-scss",
-        "stylelint-order"
+        "stylelint-order",
+        "stylelint-use-nesting"
     ],
     "ignoreFiles": [
         "**/*.yaml",
@@ -28,6 +29,12 @@ module.exports = {
             true,
             {
                 "disableFix": true
+            }
+        ],
+        "csstools/use-nesting": [
+            "always",
+            {
+                "except": [/^:.*/i]
             }
         ],
         "indentation": 4,
