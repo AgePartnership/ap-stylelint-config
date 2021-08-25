@@ -31,12 +31,7 @@ module.exports = {
                 "disableFix": true
             }
         ],
-        "csstools/use-nesting": [
-            "always",
-            {
-                "except": [/^(&)?:.*/i]
-            }
-        ],
+        "csstools/use-nesting": "always",
         "no-duplicate-selectors": true,
         "indentation": 4,
         "rule-empty-line-before": [
