@@ -1,0 +1,33 @@
+###> macOS & General ###
+.DS_Store
+.AppleDouble
+.LSOverride
+.com.apple.*
+*.swp
+*.tar.gz
+###< macOS & General ###
+
+###> VS Code ###
+# https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+###< VS Code ###
+
+###> Node ###
+# https://github.com/github/gitignore/blob/main/Node.gitignore
+/node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+logs
+###< Node ###
