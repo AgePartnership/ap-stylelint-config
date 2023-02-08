@@ -8,14 +8,18 @@ We use [`npm version`](https://docs.npmjs.com/cli/v6/commands/npm-version) with 
 Here's the process for publishing your changes:
 1. Merge your approved changes into develop and pull down develop locally.
 2. Run `npm version [patch / minor / major]`, following normal [semantic versioning constraints](https://semver.org/).
+3. Run `npm publish` to push your changes up to the registry
 
 ### How to use:
-`npm install ap-stylelint-config`
+`npm install @agepartnersip/ap-stylelint-config --save-dev`
 
-.stylelint.yaml:
+#### Set up .stylelintrc.yaml
+This file should go in the route of your repo
+
+Note: `node_modules` is excluded by default – https://stylelint.io/user-guide/configure/#ignorefiles
 
 ```yaml
-extends: ap-stylelint-config
+extends: "@agepartnership/ap-stylelint-config"
 
 ignoreFiles:
   - some-folder/some-temp-file.scss
@@ -24,3 +28,4 @@ ignoreFiles:
   - "**/*.css"
 
 ```
+See https://stylelint.io/user-guide/configure/ for more info
