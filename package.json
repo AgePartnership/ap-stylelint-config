@@ -1,10 +1,16 @@
 {
-  "name": "ap-stylelint-config",
+  "name": "@agepartnership/ap-stylelint-config",
   "version": "1.2.0",
   "description": "StyleLint Configuration for AgePartnership's SCSS",
   "license": "MIT",
   "main": "index.js",
-  "repository": "git@github.com:AgePartnership/ap-stylelint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AgePartnership/ap-stylelint-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config",
