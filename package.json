@@ -1,6 +1,6 @@
 {
   "name": "@agepartnership/ap-stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "StyleLint Configuration for AgePartnership's SCSS",
   "license": "MIT",
   "main": "index.js",
