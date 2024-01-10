@@ -25,9 +25,9 @@ module.exports = {
         ],
         "order/order": [
             [
+                "dollar-variables",
                 "at-rules",
                 "custom-properties",
-                "dollar-variables",
                 "at-variables",
                 "declarations",
                 "rules"
