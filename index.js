@@ -23,6 +23,17 @@ module.exports = {
                 "message": "Variable name must be kebab-case"
             }
         ],
+        "order/order": [
+            [
+                "at-rules",
+                "custom-properties",
+                "dollar-variables",
+                "at-variables",
+                "declarations",
+                "rules"
+            ]
+        ],
+        "order/properties-alphabetical-order": true,
         "scss/at-else-closing-brace-space-after": "always-intermediate",
         "scss/at-if-closing-brace-space-after": "always-intermediate",
         "order/properties-alphabetical-order": [
