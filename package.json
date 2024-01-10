@@ -1,22 +1,33 @@
 {
-  "name": "ap-stylelint-config",
-  "version": "1.1.3",
+  "name": "@agepartnership/ap-stylelint-config",
+  "version": "2.0.1",
   "description": "StyleLint Configuration for AgePartnership's SCSS",
+  "license": "MIT",
   "main": "index.js",
-  "repository": "git@github.com:AgePartnership/ap-stylelint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AgePartnership/ap-stylelint-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config",
     "agepartnership"
   ],
-  "license": "MIT",
+  "scripts": {
+    "preversion": "git checkout develop",
+    "postversion": "git push --tags origin develop && git checkout master && git pull --tags origin develop && git push --tags origin master && git checkout develop"
+  },
   "bugs": {
     "url": "https://github.com/AgePartnership/ap-stylelint-config/issues"
   },
   "homepage": "https://github.com/AgePartnership/ap-stylelint-config#readme",
   "dependencies": {
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.16.1",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-scss": "^3.19.0",
+    "stylelint-use-nesting": "^3.0.0"
   }
 }

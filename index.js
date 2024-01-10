@@ -3,7 +3,8 @@
 module.exports = {
     "plugins": [
         "stylelint-scss",
-        "stylelint-order"
+        "stylelint-order",
+        "stylelint-use-nesting"
     ],
     "ignoreFiles": [
         "**/*.yaml",
@@ -33,6 +34,16 @@ module.exports = {
             ]
         ],
         "order/properties-alphabetical-order": true,
+        "scss/at-else-closing-brace-space-after": "always-intermediate",
+        "scss/at-if-closing-brace-space-after": "always-intermediate",
+        "order/properties-alphabetical-order": [
+            true,
+            {
+                "disableFix": true
+            }
+        ],
+        "csstools/use-nesting": "always",
+        "no-duplicate-selectors": true,
         "indentation": 4,
         "rule-empty-line-before": [
             "always",
@@ -78,7 +89,6 @@ module.exports = {
         "selector-pseudo-element-colon-notation": "double",
         "at-rule-name-space-after": "always",
         "at-rule-semicolon-space-before": "never",
-        "block-closing-brace-space-after": "never-single-line",
         "block-closing-brace-space-before": "always-single-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always",
@@ -99,6 +109,7 @@ module.exports = {
         "media-query-list-comma-space-after": "always",
         "media-query-list-comma-space-before": "never",
         "no-eol-whitespace": true,
+        "property-no-unknown": true,
         "selector-attribute-brackets-space-inside": "never",
         "selector-attribute-operator-space-after": "never",
         "selector-attribute-operator-space-before": "never",
