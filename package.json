@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:AgePartnership/ap-stylelint-config.git"
+    "url": "git+https://github.com/AgePartnership/ap-stylelint-config.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -25,9 +25,12 @@
   },
   "homepage": "https://github.com/AgePartnership/ap-stylelint-config#readme",
   "dependencies": {
-    "stylelint": "^14.16.1",
+    "stylelint": "^16.7.0",
+    "stylelint-config-standard": "^36.0.1",
     "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^3.19.0",
-    "stylelint-use-nesting": "^3.0.0"
-  }
+    "stylelint-scss": "^6.4.1",
+    "stylelint-use-nesting": "^5.1.1"
+  },
+  "type": "module",
+  "exports": "./index.js"
 }
