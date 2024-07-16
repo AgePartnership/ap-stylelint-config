@@ -36,12 +36,6 @@ module.exports = {
         "order/properties-alphabetical-order": true,
         "scss/at-else-closing-brace-space-after": "always-intermediate",
         "scss/at-if-closing-brace-space-after": "always-intermediate",
-        "order/properties-alphabetical-order": [
-            true,
-            {
-                "disableFix": true
-            }
-        ],
         "csstools/use-nesting": "always",
         "no-duplicate-selectors": true,
         "indentation": 4,
