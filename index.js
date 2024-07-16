@@ -68,10 +68,11 @@ export default {
         "font-family-name-quotes": "always-where-recommended",
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
+        "import-notation": "string",
         "no-duplicate-at-import-rules": true,
         "no-empty-source": true,
         "selector-max-id": 0,
         "selector-pseudo-element-colon-notation": "double",
-        "property-no-unknown": true
+        "property-no-unknown": true,
     }
 };
