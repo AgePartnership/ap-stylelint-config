@@ -27,7 +27,7 @@
   "dependencies": {
     "stylelint": "^16.7.0",
     "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^3.19.0",
-    "stylelint-use-nesting": "^3.0.0"
+    "stylelint-scss": "^6.4.1",
+    "stylelint-use-nesting": "^5.1.1"
   }
 }
