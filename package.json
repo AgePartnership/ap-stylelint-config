@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:AgePartnership/ap-stylelint-config.git"
+    "url": "https://github.com/AgePartnership/ap-stylelint-config.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -29,5 +29,7 @@
     "stylelint-order": "^6.0.4",
     "stylelint-scss": "^6.4.1",
     "stylelint-use-nesting": "^5.1.1"
-  }
+  },
+  "type": "module",
+  "exports": "./index.js"
 }
