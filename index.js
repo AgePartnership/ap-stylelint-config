@@ -34,6 +34,9 @@ export default {
         "scss/dollar-variable-pattern": [
             "^([a-z][a-z0-9]*)(--?[a-z0-9]+)*$",
             {
+                "ignore": [
+                    "selector-class-pattern",
+                ],
                 "message": "Variable name must be kebab-case"
             }
         ],
