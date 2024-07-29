@@ -34,9 +34,6 @@ export default {
         "scss/dollar-variable-pattern": [
             "^([a-z][a-z0-9]*)(--?[a-z0-9]+)*$",
             {
-                "ignore": [
-                    "selector-class-pattern",
-                ],
                 "message": "Variable name must be kebab-case"
             }
         ],
@@ -92,5 +89,12 @@ export default {
         "selector-max-id": 0,
         "selector-pseudo-element-colon-notation": "double",
         "property-no-unknown": true,
+        "selector-class-pattern": [
+			"^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+			{
+                "resolveNestedSelectors": true,
+				message: (selector) => `Expected class selector "${selector}" to be kebab-case`,
+			},
+		],
     }
 };
