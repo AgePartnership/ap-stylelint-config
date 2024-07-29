@@ -90,11 +90,11 @@ export default {
         "selector-pseudo-element-colon-notation": "double",
         "property-no-unknown": true,
         "selector-class-pattern": [
-			"^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
-			{
+            "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+            {
                 "resolveNestedSelectors": true,
-				message: (selector) => `Expected class selector "${selector}" to be kebab-case`,
-			},
-		],
+                message: (selector) => `Expected class selector "${selector}" to be kebab-case`,
+            },
+        ],
     }
 };
