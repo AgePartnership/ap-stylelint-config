@@ -18,9 +18,16 @@ export default {
         "at-rule-empty-line-before": [
             "always",
             {
-                except: ["blockless-after-same-name-blockless", "first-nested"],
-                ignore: ["after-comment"],
-                ignoreAtRules: ["else"]
+                "except": [
+                    "blockless-after-same-name-blockless",
+                    "first-nested"
+                ],
+                "ignore": [
+                    "after-comment"
+                ],
+                "ignoreAtRules": [
+                    "else"
+                ]
             },
         ],
         "scss/at-rule-no-unknown": true,
