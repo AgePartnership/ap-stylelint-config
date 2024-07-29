@@ -15,6 +15,21 @@ export default {
     "reportNeedlessDisables": true,
     "reportDescriptionlessDisables": true,
     "rules": {
+        "at-rule-empty-line-before": [
+            "always",
+            {
+                "except": [
+                    "blockless-after-same-name-blockless",
+                    "first-nested"
+                ],
+                "ignore": [
+                    "after-comment"
+                ],
+                "ignoreAtRules": [
+                    "else"
+                ]
+            },
+        ],
         "scss/at-rule-no-unknown": true,
         "scss/dollar-variable-pattern": [
             "^([a-z][a-z0-9]*)(--?[a-z0-9]+)*$",
