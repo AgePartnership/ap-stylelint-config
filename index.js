@@ -1,5 +1,4 @@
 export default {
-    "extends": ["stylelint-config-standard"],
     "plugins": [
         "stylelint-scss",
         "stylelint-order",
