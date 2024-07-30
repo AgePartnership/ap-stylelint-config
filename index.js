@@ -87,13 +87,6 @@ export default {
         "no-empty-source": true,
         "selector-max-id": 0,
         "selector-pseudo-element-colon-notation": "double",
-        "property-no-unknown": true,
-        "selector-class-pattern": [
-            "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
-            {
-                "resolveNestedSelectors": true,
-                message: (selector) => `Expected class selector "${selector}" to be kebab-case`,
-            },
-        ],
+        "property-no-unknown": true
     }
 };
